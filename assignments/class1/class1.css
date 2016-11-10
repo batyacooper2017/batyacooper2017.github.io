@@ -3,6 +3,7 @@ h1 {
     font-size: 50px;
     background-color: burlywood;
     font-family: cursive;
+    text-decoration: underline;
 }
 
 h2 {
@@ -20,4 +21,5 @@ ul {
     color: darkolivegreen;
     font-family: inherit;
     font-size: 20px;
+    list-style-position: inside;
 }
