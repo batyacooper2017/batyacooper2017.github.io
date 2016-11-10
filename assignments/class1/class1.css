@@ -1,0 +1,23 @@
+h1 {
+    color: darkmagenta;
+    font-size: 50px;
+    background-color: burlywood;
+    font-family: cursive;
+}
+
+h2 {
+    color: darksalmon;
+    font-size: 36px;
+    font-family: monospace;
+}
+
+body {
+    color: deepskyblue;
+    font-size: 25px;
+}
+
+ul {
+    color: darkolivegreen;
+    font-family: inherit;
+    font-size: 20px;
+}
