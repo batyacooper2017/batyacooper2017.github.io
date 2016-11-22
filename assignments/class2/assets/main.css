@@ -17,7 +17,8 @@ nav {
     box-sizing: border-box;
     text-align: center;
     float: left;
-    /*position: absolute;*/
+    top: 300px;
+    /*position: fixed;*/
 
 }
 
@@ -25,7 +26,7 @@ main {
     height: 1000px;
     background-color: chocolate;
     border: 3px solid black;
-    padding: 30px 10px;
+    padding: 270px 27px;
 
 }
 
@@ -52,6 +53,7 @@ aside div {
     border: 3px solid purple;
     height: 100px;
     width: 100px;
+    margin: auto;
 
 }
 
@@ -78,7 +80,7 @@ footer {
     background-color: dimgray;
     border: 3px solid black;
     height: 100px;
-    width: 1500px;
+    width: 100%;
     bottom: 0;
     padding: 30px 10px;
     text-align: center;
