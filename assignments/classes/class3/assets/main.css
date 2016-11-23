@@ -50,6 +50,7 @@ nav {
     border: 3px solid red;
     box-sizing: border-box;
     text-align: center;
+
 }
 
 main article {
@@ -98,5 +99,5 @@ img:hover {
     /*opacity: .5;*/
 }
 /*img:hover ~ figcaption {
-    display: block;
-}*/
+    display: block;*/
+}
