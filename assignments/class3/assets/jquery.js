@@ -1,4 +1,10 @@
-   // $("footer").hover(
+
+
+//$(function(){
+ //   $("footer").
+//});
+
+// $("footer").hover(
      //  function(){
       //      $(this).fadeIn(100);
       //  },
@@ -45,4 +51,18 @@
    // });
 
 //});
+
+$(function(){
+    var captionHideen = true;
+
+    var myFooter = $("footer");
+
+   myFooter.on("mouseenter", function(){
+        myFooter.fadeIn();
+    }).on("mouseleave", function(){
+        myFooter.fadeOut();
+
+    });
+
+});
 
