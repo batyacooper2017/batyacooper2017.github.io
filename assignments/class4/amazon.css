@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 305px;
+    background: #35A28B;
+}
+
+nav {
+    height: 73px;
+    background: #232F3E;
+}
+
+main {
+    height: 180px;
+    background: #C5C9CA;
+    padding: 7px;
+}
+
+.one {
+    width: 245px;
+    height: 169px;
+    background: #D6F6FC;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.two {
+    width: 245px;
+    height: 169px;
+    background: #D6F6FC;
+    float: left;
+     margin: 0 10px 0 0;
+}
+
+.three {
+    width: 245px;
+    height: 169px;
+    background: #D6F6FC;
+    float: left;
+   margin: 0 10px 0 0;
+}
+
+aside {
+    width: 232px;
+    height: 173px;
+    background: #FFFFFF;
+    float: right;
+}
+
+footer {
+    height: 484px;
+    background: #131A22;
+}

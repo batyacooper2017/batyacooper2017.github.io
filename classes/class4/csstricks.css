@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #C4C4C4;
+
+}
+
+header {
+    height: 201px;
+    background-color: #2E241B;
+    position: relative;
+}
+
+nav {
+    height: 38px;
+    background: #241A14;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    font-size: 40px;
+    color: white;
+    margin: 0, 15px;
+}
+
+main, aside {
+     height: 228px;
+    background: white;
+    border-radius: 20px;
+    float: left;
+}
+
+main {
+    width: 646px;
+    margin: 70px 0 0 15px;
+}
+
+aside {
+   width: 298px;
+    margin: 70px 15px 0 50px;
+}
