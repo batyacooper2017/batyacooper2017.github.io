@@ -53,16 +53,25 @@
 //});
 
 $(function(){
-    var captionHideen = true;
+    var captionHidden = true;
 
-    var myFooter = $("footer");
+   var myFooter = $("footer");
+    var myDiv = $("footer div");
 
-   myFooter.on("mouseenter", function(){
-        myFooter.fadeIn();
+    myFooter.on("mouseover", function(){
+       myDiv.fadeIn();
     }).on("mouseleave", function(){
-        myFooter.fadeOut();
+        myDiv.fadeOut();
 
     });
 
 });
 
+    //if (captionHidden){
+    //    $(this).next().show()
+     //   captionHidden = false;
+   // }else{
+    //    $(this).next().hide()
+    //    captionHidden = true;
+   // }
+//});
