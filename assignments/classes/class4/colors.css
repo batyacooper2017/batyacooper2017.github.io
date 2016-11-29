@@ -1,6 +1,7 @@
 
 .red {
     background-color: rgb(255, 0, 0);
+    opacity: .5;
 }
 
 div {
@@ -11,7 +12,9 @@ div {
 }
 
 .blue {
-    background-color: rgb(100, 100, 225);
+    background-color: rgba(100, 100, 225, .5);
+    position: relative;
+    right: 100px;
 }
 
 .green {
@@ -19,10 +22,17 @@ div {
 }
 
 .grey {
-    background-color: hsl();
+    background-color: hsl(40, 5%, 35%);
 }
 
 .orange {
-    background-color: hsl(30, 100%, 50%);
+    background-color: hsla(30, 100%, 50%, .5);
+    position: relative;
+    right: 100px;
+    color: hsla(330, 100%, 20%, .4);
+}
+
+.yellow {
+    background-color: hsl(40, 95%, 55%)
 }
 
