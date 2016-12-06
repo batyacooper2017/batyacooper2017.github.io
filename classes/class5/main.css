@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+header {
+    background-color: palevioletred;
+    padding: 10px 50px;
+    /*overflow: hidden;*/
+}
+
+header::after{
+    clear:both;
+    content: '';
+    display: block;
+}
+
+nav {
+    float: right;
+
+}
+
+nav > ul > li {
+   /* float: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;*/
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+
+nav li div {
+    /*display: none;*/
+    position: absolute;
+    left: 0;
+    top: 38px;
+    border: 0px solid black;
+    border-radius: 0 0 10px 10px;
+    background-color: bisque;
+    list-style: none;
+    width: 200px;
+    height: 0px;
+    overflow: hidden;
+
+}
+
+nav li a {
+     color: hsl(300, 100%, 20%);
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+}
+
+nav li:hover div {
+    /*display: block;*/
+}
+
+#hamburger{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+
+#hamburger::before, #hamburger::after{
+    content: '';
+    display: block;
+    width: 30px;
+    border-color: #333;
+    border-style: solid;
+    border-width: 1px 0;
+    position: absolute;
+    top: 11px;
+    left: 9px;
+    height: 11px;
+}
+
+#hamburger::after{
+    border-top-width: 0;
+    bottom: 11px;
+    top: auto;
+
+}
